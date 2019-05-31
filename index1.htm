@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>arguing buttons </title>
+</head>
+<body>
+
+	<div>
+     <button id="top">Top</button>
+	    
+	    <p id="argueText"> </P>
+	  	
+	  <button id="botton">Botton</button>
+	
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	
+document.getElementById("top").addEventListener("click",argueButtons);
+
+
+function argueButtons() {
+  document.getElementById("argueText").innerHTML ="I am Right";
+}
+
+
+
+document.getElementById("botton").addEventListener("click",argueButtons2);
+
+function argueButtons2() {
+  document.getElementById("argueText").innerHTML =" No, I am Right!";
+}
+
+
+
+
+
+
+</script>
+</html>
