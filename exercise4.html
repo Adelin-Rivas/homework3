@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exercise4</title>
+	<link rel="stylesheet" type="text/css" href="exercise4.css">
+</head>
+	<body>
+
+		   <nav> 
+
+
+			<ul class="bar">
+				 <li> <a id="index" href="index.html"> exercise1</a> </li>
+				 <li> <a id="exer1"href="exercise2.html"> exercise2</a> </li>
+				 <li> <a href="exercise3.html"> exercise3</a> </li>
+				 <li> <a id="exer4" href="exercise4.html"> exercise4</a> </li>
+			</ul>
+
+		  </nav>
+
+
+
+		  <fieldset>
+
+
+			<label>Radius of a Circle <br>
+				<input type="text" name="radios" id="rad" onkeyup=calArea()>
+			</label>
+			<br>
+
+			<label>Area<br>
+				<input type="text" name="area"  id="area">
+			</label>
+			<br>
+
+		</fieldset>
+
+		<script>  
+
+            let radios=document.getElementById("rad");
+            let area=document.getElementById("area");
+            
+
+            function calArea()
+            {      
+            	let rad=parseFloat( radios.value);
+            	let areaT=rad*rad*Math.PI;
+            	if(areaT>0)
+            	{
+
+            		area.value=areaT.toFixed(3);}
+            	else{
+
+            	    area.value=0;	
+            	}
+
+
+
+
+
+
+			}
+
+
+
+	                          </script>
+
+
+
+
+
+
+
+	</body>
+</html>

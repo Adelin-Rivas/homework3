@@ -1,0 +1,58 @@
+.bar{ 
+
+		 margin: 0;
+		 padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+		width: auto;
+		background-color: #feb236;
+		align-items: center;
+		height:100px;
+		font-size: 3vw;
+		text-decoration: none;
+		color:#CCF381;
+
+     }
+
+
+	.bar li a{
+		text-decoration: none;
+			color:#CCF381;
+
+
+
+	}
+
+
+	 .bar li a:hover:not(#exer3)
+    {
+    	background-color: blue;
+    	color:black;
+    }
+
+
+    body
+	{
+		background: #4831D4;}
+  
+
+  #exer3{background-color:#CCCCFF;}
+
+
+
+
+
+  fieldset{ 
+   display: flex;
+   flex-direction: row;
+   width: 100px;
+   margin-left: 45%;
+   margin-top: 5%;
+
+
+
+   }
+
+
+

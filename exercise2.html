@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Exerside2</title>
+		<link rel="stylesheet" type="text/css" href="exercide2.css">
+
+	</head>
+	<body>
+	    <nav> 
+
+
+		<ul class="bar">
+			 <li> <a href="index.html">exercise1</a> </li>
+			 <li> <a id="exer1" href="exercise.html"> exercise2</a> </li>
+			 <li> <a href="exercise3.html"> exercise3</a> </li>
+			 <li> <a href="exercise4.html"> exercise4</a> </li>
+		</ul>
+
+	   </nav>
+
+		<div class="button"> <button id="donot">Do not Hover Over this Button </button> </div>
+
+	</body>
+
+		<script type="text/javascript">
+			let myAlert=function(){alert("Hey, I told you not to hover over me!")}
+			let doNotId=document.getElementById("donot");
+			doNotId.addEventListener("mouseover", myAlert);
+			
+			
+
+
+
+		</script>
+</html>
